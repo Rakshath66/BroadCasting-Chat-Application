@@ -12,8 +12,7 @@ This Broadcasting Chat Application is a simple real-time chat system using Socke
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Test](#Test)
 
 ## Features
 
