@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    /* font-size: 10vw; make our h1 tag larger */
+    font-family: sans-serif; /* choosing our font */
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(249, 246, 238) 20%, rgb(185, 199, 198) 61%), linear-gradient(rgb(249, 246, 238) 52%, rgb(224, 246, 255) 60%, rgb(249, 246, 238) 61%); /* you can change the colors based on your preference */
+    background-clip: text; /*it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text; /*for browsers compatibility */
+    -webkit-text-fill-color: transparent; /* specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+    animation: wave 2000ms ease alternate infinite;
+    transition: all 0.4s ease;
+}
+@keyframes wave {
+0% {
+  background-position: 0 0;
+}
+100% {
+  background-position: 50vw 10px;
+}
+}
